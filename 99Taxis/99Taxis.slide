@@ -55,7 +55,7 @@ Mais exemplos interessantes
 
 - Usar defer em um loop infinito
 
-    fot {
+    for {
         ...
         f, err := os.Open("foo")
         if err != nil {
